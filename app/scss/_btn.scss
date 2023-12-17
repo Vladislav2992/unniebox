@@ -1,0 +1,26 @@
+.btn {
+    font-family: 'Mont';
+    font-weight: 600;
+    color: white;
+    font-size: clamp(14px, 5vw, 21px);
+    padding: 17px 35px;
+    padding-top: calc(9px + 7 * (100vw / 1600));
+    padding-bottom: calc(9px + 7 * (100vw / 1600));
+    padding-left: calc(20px + 11 * (100vw / 1600));
+    padding-right: calc(20px + 11 * (100vw / 1600));
+    background-color: $accent;
+    border: 1px solid $accent;
+    border-radius: 30px;
+    transition: .3s;
+
+    &:hover {
+        background-color: transparent;
+        color: $accent;
+    }
+}
+
+.btn._transparent {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
